@@ -1,0 +1,261 @@
+.pfpcontainer {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 10%;
+    top: 15%;
+    background: linear-gradient(180deg, #c7bedd 0%, #dedae7 100%);
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    animation: 1.4s appear;
+    transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.pfpcontainer img {
+    position: absolute;
+    bottom: 0;
+    height: 330px;
+}
+
+.info-container {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: calc(10% + 500px);
+    top: 15%;
+}
+
+.name {
+    font-family: Proxima Soft;
+    font-size: 60px;
+}
+
+.details .content {
+    position: absolute;
+    width: 470px;
+    height: 250px;
+    top: 70px;
+    left: 50px;
+}
+
+.details .icons {
+    position: absolute;
+    width: 30px;
+    height: 250px;
+    top: 70px;
+}
+
+.details .content a {
+    position: relative;
+    top: 20px;
+    font-family: Proxima Soft;
+    font-size: 24px;
+    float: left;
+    clear: left;
+    padding: 15px 0 25px 0;
+}
+
+.details .content .phone {
+    margin-left: -50px;
+}
+
+.details .icons .location {
+    height: 32px;
+    position: relative;
+    top: 30px;
+    left: 4px;
+    float: left;
+}
+
+.details .icons .email {
+    height: 32px;
+    position: relative;
+    top: 63px;
+    float: left;
+}
+
+.details .icons .phone {
+    height: 32px;
+    position: relative;
+    top: 94px;
+    float: left;
+}
+
+.socials {
+    position: relative;
+    top: 250px;
+}
+
+.socials img + img {
+    margin-left: 30px;
+}
+
+.strengths {
+    position: absolute;
+    width: calc(312px + 10vw);
+    height: 400px;
+    left: calc(1100px + 7.2vw);
+    top: 15%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.strengths h2 {
+    font-family: Proxima Soft;
+    position: relative;
+    left: 30px;
+    font-size: 30px;
+    line-height: 18px;
+}
+
+.strengths p {
+    font-family: Proxima Soft;
+    position: relative;
+    left: 30px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.circles {
+    font-family: auto;
+    position: relative;
+    float: right;
+    right: 50px;
+    font-size: 50px;
+    line-height: 36px;
+    letter-spacing: -3px;
+    color: #876aca;
+}
+
+#section-two {
+    position: absolute;
+    top: 600px;
+    left: 10%;
+}
+
+#section-two p {
+    font-family: Proxima Soft;
+    font-weight: 100;
+    line-height: 30px;
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+#section-two p.about {
+    margin-left: 0;
+    margin-right: 150px;
+}
+
+h1 {
+    font-family: Proxima Soft;
+    font-size: 42px;
+}
+
+.coursework-card {
+    width: 40vw;
+    height: 100px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    float: left;
+    animation: 1.4s ease-in;
+    margin-bottom: 40px;
+}
+
+.coursework-card + .coursework-card {
+    margin-left: 2.2vw;
+}
+
+.coursework-card h2 {
+    font-family: Proxima Soft;
+    margin-left: 30px;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.coursework-card h3 {
+    font-family: Proxima Soft;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.card {
+    width: 40vw;
+    height: 210px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    float: left;
+    animation: 1.4s ease-in;
+    margin-bottom: 40px;
+}
+
+.card + .card {
+    margin-left: 2.2vw;
+}
+
+
+.card img {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-family: Proxima Soft;
+    position: relative;
+    margin-left: 110px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+a.nostylelink {
+    text-decoration: none;
+    color: black;
+}
+
+.card h3 {
+    font-family: Proxima Soft;
+    font-weight: 100;
+    position: relative;
+    margin-left: 110px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+.card h4 {
+    font-family: Proxima Soft;
+    font-weight: 100;
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-top: -55px;
+}
+
+#section-two .row .card p {
+    font-size: 17px;
+    font-family: Proxima Soft;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    color: #222;
+}
+
+.card p a {
+    color: #5a37ad;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        box-shadow: 10px -10px 100px #000000;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    }
+}

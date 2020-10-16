@@ -1,0 +1,151 @@
+.name {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 10%;
+    top: 30%;
+    font-family: Proxima Soft;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 100%;
+    color: #000000;
+    animation: 1s textappear;
+}
+
+.name:hover {
+    cursor: default;
+}
+
+.name:hover span {
+    color: #5a37ad;
+    transition: 0.4s;
+}
+
+.name span {
+    transition: 0.7s;
+}
+
+.description {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 10%;
+    top: 42%;
+    font-family: Proxima Soft;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 100%;
+    color: #000000;
+    animation: 2s desappear;
+}
+
+.pfpcontainer {
+    position: absolute;
+    width: 564px;
+    height: 564px;
+    left: 55%;
+    top: 25%;
+    background: linear-gradient(180deg, #c7bedd 0%, #dedae7 100%);
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    animation: 3s appear;
+    transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+    transform: rotate(2deg);
+}
+
+.quote {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    left: 10%;
+    top: 60%;
+    font-style: italic;
+    font-family: Proxima Soft;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 100%;
+    color: #555555;
+    animation: 2s textappear;
+}
+
+.by {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    left: 10%;
+    top: 73%;
+    font-style: italic;
+    font-family: Proxima Soft;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 100%;
+    color: #555555;
+    animation: 2s textappear;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #ADDB73;
+}
+
+.pfpcontainer:hover {
+    transform: rotate(0deg);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+.pfpcontainer img {
+    position: absolute;
+    bottom: -1px;
+    height: 470px;
+}
+
+@keyframes appear {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+        box-shadow: 10px -10px 100px #000000;
+    }
+    71.4% {
+        transform: rotate(0deg);
+        opacity: 0;
+        box-shadow: 10px -10px 100px #000000;
+    }
+    100% {
+        transform: rotate(2deg);
+        opacity: 1;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@keyframes textappear {
+    0%, 80%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes desappear {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .pfp {
+        display: none;
+    }
+}

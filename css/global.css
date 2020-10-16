@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Proxima Soft";
+    src: url("../fonts/Proxima Soft.ttf");
+}
+
+body {
+    background: #dedae7;
+    scroll-behavior: ;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 7%;
+    background: #c7bedd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100000;
+}
+
+.header a {
+    padding-right: 50px;
+    font-family: Proxima Soft;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+.header a:hover {
+    color: #5a37ad;
+    transition: 0.2s;
+}
+
+.header a:last-child {
+    padding-right: 15vw;
+}
+
+.header img {
+    margin-right: calc(75vw - 265px);
+    height: 30px;
+}
+
+.header .selected {
+    color: #5a37ad;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 14px;
+    background-color: #999;
+    background-clip: padding-box;
+    border: 2px #00000000 solid;
+}
+::-webkit-scrollbar-track {
+    border-radius: 12px;
+    background-color: #f5f5f5;
+    display: none;
+}
